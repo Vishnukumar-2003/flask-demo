@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+
+metadata:
+  name: flask-config
+
+APP_NAME: "Welcome Vishnukumar"
+ENVIRONMENT: "Kubernetes"
+
+
+kubectl apply -f k8s/configmap.yaml
